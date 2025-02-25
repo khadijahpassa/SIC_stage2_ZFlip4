@@ -6,8 +6,11 @@ This project integrates **LDR, PIR Motion, and DHT sensors** with an **ESP32** t
 ## Features
 - **ESP32 MicroPython Script** to read data from LDR, PIR Motion, and DHT sensors.
 - **Data Transmission** via REST API to Ubidots.
-- **Ubidots Dashboard** with 4 visualizations (Thermometer, Gauge, Indicator widget, Line chart).
+- **Ubidots Dashboard** with 4 main visualizations (Thermometer, Gauge, Indicator widget, Line chart).
 - **Flask API** to store sensor data in MongoDB for further processing.
+
+## Dashboard View
+<img width="1440" alt="dashboard-view_zflip4" src="https://github.com/user-attachments/assets/ab494a14-8749-457d-b16a-4c154d359f3c" />
 
 ## Setup Guide
 ### 1. ESP32 Setup
